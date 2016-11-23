@@ -28,7 +28,11 @@ var fs = require('fs');
  +
  +    }
  +
- +    console.log('#7 - Done converting CSV to object, calling callback')
+ +
+
+
+
+ console.log('#7 - Done converting CSV to object, calling callback')
  +    callback(output);
  +  }
  +
